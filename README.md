@@ -1,2 +1,2 @@
 # guacd-client-service
-Apache guacamole sample code with docker file 
+Apache guacamole client sample code with docker file 

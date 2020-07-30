@@ -60,6 +60,8 @@ public class DummyGuacamoleTunnelServlet extends GuacamoleHTTPTunnelServlet {
 
 		// Create tunnel from now-configured socket
 		GuacamoleTunnel tunnel = new SimpleGuacamoleTunnel(socket);
+		
+		
 		return tunnel;
 
 	}

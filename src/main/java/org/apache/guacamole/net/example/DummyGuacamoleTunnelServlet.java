@@ -52,7 +52,7 @@ public class DummyGuacamoleTunnelServlet extends GuacamoleHTTPTunnelServlet {
 		GuacamoleConfiguration config = new GuacamoleConfiguration();
 		config.setProtocol("vnc");
 		config.setParameter("hostname", browserHost);
-		config.setParameter("port", "5901");
+		config.setParameter("port", "5900");
 		config.setParameter("password", "secret");
 
 		// Connect to guacd, proxying a connection to the VNC server above
